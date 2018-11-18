@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+/* Для шрифтов */
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
 body {
   border: 1px solid green;
   width: 1020px;
@@ -446,7 +453,7 @@ td img {
   font-family: Arial;
   color: #5c5c5c;
   font-size: 10px;
-  font-weight: 400;
+  font-weight: 100; 
   line-height: 18px;
   margin: 0 0 27px;
 }
@@ -454,6 +461,7 @@ td img {
 .right__column-top-container-social {
   display: flex;
   justify-content: space-between;
+  width: 550px;
 }
 
 .right__column-top-container-button {
@@ -487,16 +495,15 @@ td img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   background-color: #90d4f5;
   width: 180px;
   height: 27px;
-  margin: 0 -56px 0 0;
+  margin: 0 -55px 0 0;
 }
 
 .right__column-top-container-inform a {
   display: flex;
-   font-family: Arial;
+  font-family: Arial;
   color: #076e9f;
   font-size: 10px;
   font-weight: 400;
@@ -715,3 +722,4 @@ footer {
   line-height: 18px;
   margin: 10px 0 0 0;
 }
+
