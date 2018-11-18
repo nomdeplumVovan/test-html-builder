@@ -496,8 +496,7 @@ td img {
 
 .right__column-top-container-inform a {
   display: flex;
-  align-items: center;
-  font-family: Arial;
+   font-family: Arial;
   color: #076e9f;
   font-size: 10px;
   font-weight: 400;
